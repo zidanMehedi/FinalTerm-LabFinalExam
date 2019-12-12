@@ -17,7 +17,7 @@
 					<td >Id</td>
 				</tr>
 				<tr>
-					<td><input type="text" id="uname"></td>
+					<td><input type="text" id="id"></td>
 				</tr>
 				<tr>
 					<td >Password</td>
@@ -48,16 +48,16 @@
 				</tr>
 				<tr>
 					<td>
-						<select name="" id="">
-							<option value="">User</option>
-							<option value="">Admin</option>
+						<select name="" id="type">
+							<option value="User">User</option>
+							<option value="Admin">Admin</option>
 						</select>
 					</td>
 				</tr>
 				<tr><td colspan="3"><hr></td></tr>
 				<tr><td colspan="3" height="2px"></td></tr>
 				<tr>
-					<td colspan="3"><input type="button" value="Register" id="reg" onclick="loginTime()">&nbsp;<a href="login.php">Login</a></td>
+					<td colspan="3"><input type="button" value="Register" id="reg" onclick="Register()">&nbsp;<a href="login.php">Login</a></td>
 				</tr>
 			</table>
 		</fieldset>
